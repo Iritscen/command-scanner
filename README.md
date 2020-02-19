@@ -1,4 +1,4 @@
 # CommandScanner
 Pass a Bash script to CommandScanner and the commands that the script uses will be compared against the commands that are built into the macOS command line. You will be notified if any commands are not built-in.
 
-This script is currently very limited (see header comment in script). Over time I will be improving its ability to parse scripts so that its results are more refined. However, I find it useful even in its current unfinished state when I want to know if some lengthy script I've written is using a third-party program that I installed on the command line, so that I can advise would-be users of the script's requirements. You will likely also have to edit the arrays of known commands at the top of the script in order to adapt them to your personal scripting style and shell environment.
+You will likely have to edit the arrays of known commands at the top of the script, and possibly some of the parsing code as well, in order to adapt them to your personal scripting style and shell environment.
